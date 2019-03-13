@@ -1,0 +1,8 @@
+<h2>My Resources</h2>
+<ul class="resources">
+  <li *ngFor="let resource of resources">
+    <a routerLink="/detail/{{resource.id}}">
+      <span class="badge">{{resource.id}}</span> {{resource.name}}
+    </a>
+  </li>
+</ul>

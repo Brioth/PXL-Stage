@@ -1,0 +1,8 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+* { box-sizing: inherit; }
+:root { box-sizing: border-box; }
+html {
+
+    width: 97vw;
+    height: 97vh;
+}
